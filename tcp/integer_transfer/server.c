@@ -19,7 +19,7 @@
 //#define TW 2
 
 /*
-[Tested on Ubuntu 16.04, 18, Fedora 26]
+[Tested on Ubuntu 16.04 and 18.04, Fedora 26]
 To compile: gcc server.c -o server
 To run: ./server
 

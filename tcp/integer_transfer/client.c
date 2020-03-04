@@ -17,6 +17,7 @@
 /*
 To compile: gcc client.c -o client
 To run: ./client
+[Tested on Ubuntu 16.04 and 18.04, Fedora 26]
 
 Note: the server has to be exectued before the client program.
 
