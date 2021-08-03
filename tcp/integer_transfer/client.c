@@ -39,7 +39,7 @@ To terminate the program one might use Ctrl+C, this will close the socket proper
 
 */
 
-char ip_adress[12] = "192.168.2.10"; //The ip-adress of the server
+//char ip_adress[12] = "192.168.2.10"; //The ip-adress of the server
 
 void sigintHandler() //this function handles Ctrl+C by closing the socket properly
 {
@@ -139,8 +139,8 @@ int main()
 
 
 
-//	servaddr.sin_addr.s_addr = htonl(INADDR_ANY); //for local transfer
-	servaddr.sin_addr.s_addr = inet_addr(ip_adress); //for network transfer
+	servaddr.sin_addr.s_addr = htonl(INADDR_ANY); //for local transfer
+//	servaddr.sin_addr.s_addr = inet_addr(ip_adress); //for network transfer
 
 	servaddr.sin_port = htons(PORT);
 
